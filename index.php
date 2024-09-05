@@ -6,6 +6,13 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <?php
+
+        for($i = 1; $i <= 10; $i++) {
+
+            echo "This is iteration number " . $i . "<br>";
+        }
+
+    ?>
 </body>
 </html>
